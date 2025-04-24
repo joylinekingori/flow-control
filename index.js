@@ -62,7 +62,19 @@ const liveGames = () => {
 }
 liveGames()
 //5
-const feedbackMess=["Great work!",""]
+const feedback=["Good","Loved it","Could be better","Great service"]
+let i=0;
+if (feedback.length>0){
+    do{
+        console.log(feedback[i])
+        i++
+    }while(i<feedback.length)
+    }else{
+        console.log("No feedback available")
+    }
+
+
+
 //6
 const loginStatus = (logins) => {
     logins.forEach((login) => {
